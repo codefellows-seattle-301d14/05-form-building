@@ -1,4 +1,5 @@
 var ourLocalData = [
+  {"title":"title","body":"<p>Look what I learned</p>\n<pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;\nvar foo = function(){\n   console.log(&#39;output&#39;)\n};\n</code></pre>","author":"batman","category":"stuff","authorUrl":"wat.com","publishedOn":"2016-10-28T23:15:31.769Z","daysAgo":0,"publishStatus":"(published today)"},
   {
     title:       'Bacon Ipsum',
     category:    'food',
