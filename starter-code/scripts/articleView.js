@@ -86,6 +86,7 @@ articleView.create = function() {
   $('pre code').each(function(i, block) {
     hljs.highlightBlock(block);
   });
+  $('#article-json').val(JSON.stringify(formArticle) + ',');
 };
 // TERNARY OPERATOR = takes 3 inputs
 
