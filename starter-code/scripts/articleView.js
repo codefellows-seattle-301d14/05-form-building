@@ -82,6 +82,10 @@ articleView.create = function() {
     authorUrl: $('#article-author-url').val(),
     publishedOn: $('#article-published:checked').length ? new Date() : 'draft',
   });
+  $('#article-preview').append(formArticle.toHtml('#article-template'));
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
 };
 // TERNARY OPERATOR = takes 3 inputs
 
