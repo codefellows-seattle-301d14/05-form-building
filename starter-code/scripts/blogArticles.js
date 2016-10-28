@@ -1,4 +1,5 @@
 var ourLocalData = [
+  {"title":"HELLO ALL","body":"<p>What are y&#39;all up to?</p>\n","author":"Erick","category":"FUN","authorUrl":{"0":{},"length":1,"context":{"location":{"hash":"","search":"","pathname":"/new.html","port":"8080","hostname":"127.0.0.1","host":"127.0.0.1:8080","protocol":"http:","origin":"http://127.0.0.1:8080","href":"http://127.0.0.1:8080/new.html","ancestorOrigins":{}}},"selector":"#article-author-url"},"publishedOn":"2016-10-28T23:20:09.715Z","daysAgo":0,"publishStatus":"(published today)"},
   {
     title:       'Bacon Ipsum',
     category:    'food',
