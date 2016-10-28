@@ -65,6 +65,32 @@ articleView.setTeasers = function() {
   });
 };
 
+articleView.initNewViewArticlePage = function () {
+  $('#article-json').on('focus', function() {
+    $('this').select();
+
+  });
+  $('#new-form').on('change', articleView.create);
+};
+
+articleView.create = function () {
+  $('#article-preview').empty().fadeIn();
+  var formArticle = new Article({
+    title: $('#article-title').val(),
+    body: $('#article-body').val(),
+    author: $('#article-author').val(),
+    category: $('#article-category').val(),
+    authorUrl: $('#article-author-url').val(),
+    publishedOn: $('#article-published:checked').length ? new Date() : 'draft'
+  });
+  $('#article-preview').append(formArticle.toHtml('#article-template'));
+  $('code').each(function (i, block) {
+    hljs.highlightBlock(block);
+  });
+  $('#article-json').val(JSON.stringify(formArticle) + ',');
+};
+
+articleView.initNewViewArticlePage();
 articleView.render();
 articleView.handleCategoryFilter();
 articleView.handleAuthorFilter();
