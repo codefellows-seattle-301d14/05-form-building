@@ -1,5 +1,5 @@
 var ourLocalData = [
-  {
+{"title":"yesyesyes","body":"<p>text area</p>\n<pre><code>function(){\n console.log(&#39;jaaaa&#39;);\n}\n</code></pre><p>below that weird function</p>\n","author":"Regan O'Neill","category":"whoooooooooooooooooa dude","authorUrl":"mywebsite.com","publishedOn":"2016-10-28T23:18:49.415Z","daysAgo":0,"publishStatus":"(published today)"},  {
     title:       'Bacon Ipsum',
     category:    'food',
     author:      'Kevin Bacon',
