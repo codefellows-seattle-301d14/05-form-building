@@ -73,7 +73,7 @@ articleView.initNewArticlePage = function(){
 };
 
 articleView.create = function(){
-  console.log('hi');
+
   $('#article-preview').empty().fadeIn();
 
   var formArticle = new Article({
@@ -84,6 +84,9 @@ articleView.create = function(){
     authorUrl: $('#article-author-url').val(),
     publishedOn: $('#article-published:checked').length ? new Date() : 'draft'
   });
+  console.log($('#article-published:checked').length);
+  console.log(this.publishedOn);
+  
   $('#article-preview').append(formArticle.toHtml('#article-template'));
 
   $('pre code').each(function(i, block){
