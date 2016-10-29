@@ -84,9 +84,7 @@ articleView.create = function(){
     authorUrl: $('#article-author-url').val(),
     publishedOn: $('#article-published:checked').length ? new Date() : 'draft'
   });
-  console.log($('#article-published:checked').length);
-  console.log(this.publishedOn);
-  
+
   $('#article-preview').append(formArticle.toHtml('#article-template'));
 
   $('pre code').each(function(i, block){
@@ -95,8 +93,6 @@ articleView.create = function(){
 
   $('#article-json').val(JSON.stringify(formArticle) + ',');
 };
-
-
 
 articleView.render();
 articleView.handleCategoryFilter();
