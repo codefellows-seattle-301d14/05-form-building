@@ -95,3 +95,4 @@ articleView.handleCategoryFilter();
 articleView.handleAuthorFilter();
 articleView.handleMainNav();
 articleView.setTeasers();
+articleView.initNewArticlePage();
