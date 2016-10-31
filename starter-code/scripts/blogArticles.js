@@ -1,5 +1,6 @@
 var ourLocalData = [
-{"title":"Yeeeew","body":"<pre><code>\nfunction sayHi() {\n   console.log(&quot;hello&quot;):\n}\n</code></pre>","author":"","category":"food","aurthorUrl":"wwwww","publishedOn":"2016-10-28T23:14:21.834Z","daysAgo":0,"publishStatus":"(published today)"},
+{"title":"Halloween","body":"<p>Is on October 31st.</p>\n","author":"Cristina","category":"Fun","aurthorUrl":"@c.rice","publishedOn":"draft","daysAgo":null,"publishStatus":"published NaN days ago"},
+
   {
     title:       'Bacon Ipsum',
     category:    'food',
