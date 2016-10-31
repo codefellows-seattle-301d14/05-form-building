@@ -1,4 +1,5 @@
 var ourLocalData = [
+  {"title":"Test Title","body":"<p><code>Things I learned</code></p>\n","author":"Me","authorUrl":"www.this.com","category":"Testing","publishedOn":"2016-10-28T23:24:35.121Z","daysAgo":0,"publishStatus":"(published today)"},
   {
     title:       'Bacon Ipsum',
     category:    'food',
