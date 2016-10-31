@@ -1,4 +1,6 @@
 var ourLocalData = [
+{"title":"Halloween","body":"<p>Is on October 31st.</p>\n","author":"Cristina","category":"Fun","aurthorUrl":"@c.rice","publishedOn":"draft","daysAgo":null,"publishStatus":"published NaN days ago"},
+
   {
     title:       'Bacon Ipsum',
     category:    'food',
