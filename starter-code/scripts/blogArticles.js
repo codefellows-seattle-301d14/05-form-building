@@ -1,5 +1,6 @@
 var ourLocalData = [
 {"title":"y","body":"","author":"y","category":"y","autorUrl":"y","publishedOn":"2016-10-28T23:28:15.447Z","daysAgo":0,"publishStatus":"(published today)"},
+{"title":"y","body":"","author":"","category":"","autorUrl":"","publishedOn":"draft","daysAgo":null,"publishStatus":"published NaN days ago"},
 
   {
     title:       'Bacon Ipsum',
